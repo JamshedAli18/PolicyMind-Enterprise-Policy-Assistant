@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #F7F6F2;
+  --surface: #FFFFFF;
+  --border: #E2E0D8;
+  --border-dark: #C8C5BB;
+  --text-primary: #1A1916;
+  --text-secondary: #6B6860;
+  --text-muted: #9C9A93;
+  --accent: #1A1916;
+  --accent-light: #F0EFE9;
+  --user-bg: #1A1916;
+  --user-text: #F7F6F2;
+  --tag-hr: #E8F0E8;
+  --tag-hr-text: #2D5A2D;
+  --tag-finance: #E8EDF5;
+  --tag-finance-text: #1E3A5F;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-dark);
+  border-radius: 2px;
+}

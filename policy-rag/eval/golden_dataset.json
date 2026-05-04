@@ -1,0 +1,82 @@
+[
+    {
+        "question": "How many sick days do I get per year?",
+        "ground_truth": "Employees are entitled to 12 days of paid sick leave annually."
+    },
+    {
+        "question": "What is the meal limit for dinner during domestic travel?",
+        "ground_truth": "The meal limit for dinner during domestic travel is up to $75."
+    },
+    {
+        "question": "What does HR-004 cover?",
+        "ground_truth": "HR-004 covers the Leave and Attendance Policy including annual leave, sick leave, parental leave, unpaid leave, and attendance standards."
+    },
+    {
+        "question": "How many days of annual leave do full-time employees accrue per month?",
+        "ground_truth": "Full-time employees accrue 1.5 days of paid annual leave per month, capped at 30 days per calendar year."
+    },
+    {
+        "question": "What is the hotel limit per night for high-cost markets?",
+        "ground_truth": "Hotel stays in high-cost markets like New York, San Francisco, London, and Dubai are capped at $300 per night."
+    },
+    {
+        "question": "How many weeks of parental leave does a primary caregiver get?",
+        "ground_truth": "Primary caregivers are entitled to 16 weeks of fully paid parental leave."
+    },
+    {
+        "question": "What is the home office stipend for full-time remote employees?",
+        "ground_truth": "Employees approved for full-time remote work receive a one-time home office setup stipend of $800 and a monthly internet reimbursement of $50."
+    },
+    {
+        "question": "What approval is needed for expenses between $500 and $2000?",
+        "ground_truth": "Expenses between $500 and $2,000 require Department Head approval."
+    },
+    {
+        "question": "What is the capitalization threshold for assets?",
+        "ground_truth": "Assets with a useful life of more than 12 months and a cost of $2,500 or more are capitalized."
+    },
+    {
+        "question": "How long is the PIP duration for underperforming employees?",
+        "ground_truth": "Employees placed on a Performance Improvement Plan have 60 days with clearly defined measurable objectives."
+    },
+    {
+        "question": "What performance rating is required for promotion eligibility?",
+        "ground_truth": "Employees must hold a rating of 4 or above for two consecutive review cycles to be eligible for promotion."
+    },
+    {
+        "question": "How many competitive quotes are required for purchases between $5,000 and $50,000?",
+        "ground_truth": "A minimum of 3 competitive quotes are required for purchases between $5,000 and $50,000."
+    },
+    {
+        "question": "What is the depreciation period for computer hardware?",
+        "ground_truth": "Computer hardware and software are depreciated over 3 years using the straight-line method."
+    },
+    {
+        "question": "How many consecutive no-call no-show incidents constitute job abandonment?",
+        "ground_truth": "Three consecutive no-call no-show incidents constitute job abandonment."
+    },
+    {
+        "question": "What dual authorization is required for payments above $25,000?",
+        "ground_truth": "All outgoing payments above $25,000 require dual authorization — one from Finance and one from the relevant business unit head."
+    },
+    {
+        "question": "How many days does an employee have to submit an expense report?",
+        "ground_truth": "Expense reports must be submitted within 30 calendar days of the expense being incurred."
+    },
+    {
+        "question": "What is the minimum in-office requirement for hybrid employees?",
+        "ground_truth": "Remote-eligible employees are required to be present in-office a minimum of 2 days per week."
+    },
+    {
+        "question": "What happens if a department exceeds budget by more than 10% in a month?",
+        "ground_truth": "Departments with actual spend exceeding budget by more than 10% must submit a written variance explanation to FP&A within 5 business days of month-end close."
+    },
+    {
+        "question": "What is the notice period for reporting parental leave to HR?",
+        "ground_truth": "Employees must notify HR at least 8 weeks before the expected parental leave start date."
+    },
+    {
+        "question": "What happens if an employee asks about the marketing budget?",
+        "ground_truth": "This information is not available in the policy documents."
+    }
+]

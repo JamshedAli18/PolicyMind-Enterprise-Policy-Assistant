@@ -1,0 +1,21 @@
+question,correctness,context_recall,faithfulness,hallucination,wrong_namespace
+How many sick days do I get per year?,0.86,1.0,0.82,✓ NO,✓ NO
+What is the meal limit for dinner during domestic trave,1.0,1.0,0.71,✓ NO,✓ NO
+What does HR-004 cover?,0.75,0.81,0.71,✓ NO,✓ NO
+How many days of annual leave do full-time employees ac,1.0,1.0,0.94,✓ NO,✓ NO
+What is the hotel limit per night for high-cost markets,0.75,0.83,0.78,✓ NO,✓ NO
+How many weeks of parental leave does a primary caregiv,1.0,1.0,0.72,✓ NO,✓ NO
+What is the home office stipend for full-time remote em,0.0,0.31,0.18,⚠️ YES,✓ NO
+What approval is needed for expenses between $500 and $,0.88,1.0,0.77,✓ NO,✓ NO
+What is the capitalization threshold for assets?,1.0,1.0,0.88,✓ NO,✓ NO
+How long is the PIP duration for underperforming employ,0.83,0.92,0.91,✓ NO,✓ NO
+What performance rating is required for promotion eligi,1.0,1.0,0.88,✓ NO,✓ NO
+How many competitive quotes are required for purchases ,0.88,1.0,0.81,✓ NO,✓ NO
+What is the depreciation period for computer hardware?,0.78,0.56,0.71,✓ NO,✓ NO
+How many consecutive no-call no-show incidents constitu,1.0,1.0,0.76,✓ NO,✓ NO
+What dual authorization is required for payments above ,1.0,1.0,0.9,✓ NO,✓ NO
+How many days does an employee have to submit an expens,0.8,1.0,0.86,✓ NO,✓ NO
+What is the minimum in-office requirement for hybrid em,0.88,1.0,0.92,✓ NO,✓ NO
+What happens if a department exceeds budget by more tha,1.0,1.0,0.85,✓ NO,✓ NO
+What is the notice period for reporting parental leave ,1.0,1.0,0.88,✓ NO,✓ NO
+What happens if an employee asks about the marketing bu,0.6,0.2,0.26,⚠️ YES,✓ NO
