@@ -82,11 +82,15 @@ def retrieve(state: RagState) -> RagState:
     dense = embedder.embed_query(question)
     sparse = bm25.encode_queries(question)
 
+    # Apply hybrid alpha scaling locally
+    dense = [v * HYBRID_ALPHA for v in dense]
+    if "values" in sparse:
+        sparse["values"] = [v * (1.0 - HYBRID_ALPHA) for v in sparse["values"]]
+
     results = index.query(
         vector=dense,
         sparse_vector=sparse,
         top_k=TOP_K,
-        alpha=HYBRID_ALPHA,
         namespace=namespace,
         include_metadata=True
     )
