@@ -17,6 +17,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def read_root():
+    return {"status": "Policy Assistant API is running! Go to /docs to test it."}
+
 class ChatRequest(BaseModel):
     question: str
 
