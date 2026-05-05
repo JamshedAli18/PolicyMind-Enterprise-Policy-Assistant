@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import './index.css'
 
-const API_URL = 'http://localhost:8000/chat'
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/chat'
 
 const SUGGESTIONS = [
   'How many sick days do I get per year?',
