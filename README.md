@@ -3,7 +3,7 @@
 An intelligent RAG-powered chatbot that answers employee questions about HR and Finance policies with pinpoint accuracy, built on CRAG, hybrid search, and real company documents.
 
 ---
-
+ 
 ## Screenshots
 
 ### Welcome Screen
