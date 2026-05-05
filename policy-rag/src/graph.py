@@ -4,6 +4,16 @@ import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from typing import TypedDict, List
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt', quiet=True)
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+except LookupError:
+    nltk.download('punkt_tab', quiet=True)
+
 from langchain_groq import ChatGroq
 from langchain_cohere import CohereEmbeddings
 from langchain_core.messages import HumanMessage, SystemMessage
