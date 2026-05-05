@@ -1,0 +1,14 @@
+fastapi
+langchain
+langchain-cohere
+langchain-groq
+langchain-text-splitters
+langgraph
+pandas
+pinecone
+pinecone-text
+pypdf
+python-docx
+python-dotenv
+tiktoken
+uvicorn
