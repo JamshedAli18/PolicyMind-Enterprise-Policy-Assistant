@@ -7,7 +7,7 @@ An intelligent RAG-powered chatbot that answers employee questions about HR and 
 ## Screenshots
 
 ### Welcome Screen
-![PolicyMind Welcome Screen](./welcome.png)
+![PolicyMind Welcome Screen](./welcome.png) 
 
 ### Chat in Action
 ![PolicyMind Chat](./chat.png)
